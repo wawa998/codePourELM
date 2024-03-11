@@ -1,5 +1,9 @@
-FROM node:latest
+FROM php:7.4-apache
 
-RUN npm install -g elm
+WORKDIR /var/www/html
 
-WORKDIR /code
+COPY . .
+
+EXPOSE 80
+
+CMD ["apache2-foreground"]
