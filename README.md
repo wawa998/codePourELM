@@ -30,7 +30,7 @@ Vue (View) : La vue est responsable de la génération du contenu en utilisant l
 
 Mise à jour (Update) : La fonction de mise à jour est chargée de traiter les actions de l’utilisateur et de modifier le modèle en conséquence. Elle prend en entrée l’action de l’utilisateur et l’état actuel du modèle, puis renvoie un nouveau modèle mis à jour. C’est le seul moyen par lequel le modèle peut être modifié, ce qui garantit un flux de données unidirectionnel et prévisible.
 
-### Le code EML
+### Le code ELM
 
 Voici le code EML de la partie qui met a jour le compteur sur la page HTML en fonction des boutons + et - sur lequels l'utilisateur à la possibilité de cliquer. 
 
