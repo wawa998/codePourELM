@@ -6,7 +6,7 @@ Voici notre application qui présente l'architecture ELM.
 
 <img src="ImgReadme/Capture%20d'écran%202024-03-15%20160400.png" alt="Application EML" width="300"/> 
 
-Notre application permet de visualiser le principe MVU (Model View Update) qui permet de mettre à jour un, ou des composants d'une page HTML, en fonction du comportement de l'utilisateur. Et ce, sans même à avoir à recharger la page.
+Notre application mplémente l'architecture ELM (Model View Update) qui permet de mettre à jour un, ou des composants d'une page HTML, en fonction du comportement de l'utilisateur. Et ce, sans avoir à recharger la page.
 
 ## Utilisation de l'application
 
@@ -14,11 +14,11 @@ Cette application se compose en 2 partie :
 
 ### La première partie 
 
-Lorsque l'utilisateur clique sur les boutons - ou +, le nombre se met à jour automatiquement grace à une soustraction ou une addition.
+Lorsque l'utilisateur clique sur les boutons - ou +, le nombre se met à jour automatiquement en faisant une soustraction ou une addition.
 
 ### La seconde partie
 
-L'utilisateur entre un texte et clique sur le bouton "Inverser le texte", le label text inversé se met à jour et affiche le mot inversé.
+L'utilisateur entre un texte et clique sur le bouton "Inverser le texte", le texte inversé s’affiche en dessous.
 
 ## Fonctionnement de l'application
 
