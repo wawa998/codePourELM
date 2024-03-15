@@ -38,6 +38,8 @@ Voici le code EML de la partie qui met a jour le compteur sur la page HTML en fo
 
 La partie Main sert simplement de constructeur pour le navigateur.
 
+<img src="ImgReadme/MainMain.png" alt="Schéma architecture EML Model" width="100%"/>
+
 #### La partie Model
 
 La partie Model sert d'initialisation : 
