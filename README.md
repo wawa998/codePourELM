@@ -14,7 +14,7 @@ Cette application se compose en 2 partie :
 
 ### La première partie 
 
-Lorsque l'utilisateur clique sur les boutons - et +, le nombre se met à jour automatiquement grace à une soustraction ou une addition.
+Lorsque l'utilisateur clique sur les boutons - ou +, le nombre se met à jour automatiquement grace à une soustraction ou une addition.
 
 ### La seconde partie
 
