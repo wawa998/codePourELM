@@ -32,19 +32,27 @@ Mise à jour (Update) : La fonction de mise à jour est chargée de traiter les 
 
 ### Le code EML
 
-Voici le code EML de la partie qui met a jour le compteur sur la page HTML en fonction des boutons + et - sur lequels l'utilisateur à la possibilité de cliquer.
+Voici le code EML de la partie qui met a jour le compteur sur la page HTML en fonction des boutons + et - sur lequels l'utilisateur à la possibilité de cliquer. 
 
-<img src="ImgReadme/MainModel.png" alt="Schéma architecture EML Model" width="100%"/> 
+#### La partie Main
+
+La partie Main sert simplement de constructeur pour le navigateur.
+
+#### La partie Model
 
 La partie Model sert d'initialisation : 
 `init : Model` initialise l'application EML et le nombre centrale `init = 0` est intitialisé à 0. 
 Le Modèle est le corp de notre application.
 
-<img src="ImgReadme/MainUpdate.png" alt="Schéma architecture EML Update" width="100%"/>
+<img src="ImgReadme/MainModel.png" alt="Schéma architecture EML Model" width="100%"/>
 
+#### La partie Update 
 La partie Update sert à mettre à calculer la nouvelle valeur, elle stocke les fonctions `Increment` et `Decrement`. La partie Update gère egalement la mise à jour du modèle avec le `update msg model`
 
-<img src="ImgReadme/MainView.png" alt="Schéma architecture EML View" width="100%"/> 
+<img src="ImgReadme/MainUpdate.png" alt="Schéma architecture EML Update" width="100%"/>
 
+#### La partie View
 La partie view s'accupe de la partie graphique de l'application.  
 C'est elle qui implémente les bouton et le nombre entier. Les bouttons appellent les fonctions d'incrémentation de la partie Update.
+
+<img src="ImgReadme/MainView.png" alt="Schéma architecture EML View" width="100%"/> 
