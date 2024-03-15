@@ -22,8 +22,7 @@ L'utilisateur entre un texte et clique sur le bouton "Inverser le texte", le lab
 
 ## Fonctionnement de l'application
 
-### principe de ELM
-<img src="ImgReadme/Schema_ELM.png" alt="Schéma architecture EML" width="400"/> 
+<img src="ImgReadme/Schema_ELM.png" alt="Schéma architecture EML" width="600"/> 
 
 Modèle (Model) : Il représente l'état actuel de l'application. Cela comprend les données pour afficher l'interface utilisateur, telles que les données ou les constantes. Le modèle est immuable, ce qui signifie qu’il ne peut pas être modifié directement, toutes les modifications sont effectuées par la fonction d’Actualisation (Update), ensuite le modèle mettra à jour la vue.
 
